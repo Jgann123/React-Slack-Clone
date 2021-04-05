@@ -45,11 +45,9 @@ const InputContainer = styled.div`
 
     input:focus {
        outline: none;
-       hieght: 200px;
+      
     }
   }
-
- 
 `
 
 const SendButton = styled.div`

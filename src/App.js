@@ -6,7 +6,7 @@ import Login from "./componants/Login";
 import styled from "styled-components";
 import Header from "./componants/Header";
 import Sidebar from "./componants/Sidbar";
-import db from "./firebase"
+import db from './firebase';
 
 
 
@@ -43,10 +43,10 @@ function App() {
           <Main>
           <Sidebar rooms={ rooms }/>
             <Switch>
-              <Route path="/room">
+              <Route path="/">
                 <Chat />
               </Route>
-              <Route path="/">
+              <Route path="/home">
                 <Login />
               </Route>
             </Switch>

@@ -17,7 +17,7 @@ function Sidbar(props) {
         name: promptName
         //you could add more information here that pulls data from the user that is logged in if you did not want to fill out an entire form
         //How could you add people to the channel?? 
-       // This will be fun to figure out. ??? 
+        // This will be fun to figure out. ??? 
       })
     }
   }
@@ -144,6 +144,7 @@ const Channel = styled.div`
   }
   
 `
+
 
 
 
